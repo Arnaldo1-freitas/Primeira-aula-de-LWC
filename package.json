@@ -1,0 +1,7 @@
+{
+  "name": "@wcd/arnaldo1-freitas.lwc-l2z4dkeh",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx wcd-cli@latest serve SKzhVnnKOE8cXkVqtwO4 --open"
+  }
+}

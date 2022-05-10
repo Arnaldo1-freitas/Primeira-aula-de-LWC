@@ -1,0 +1,27 @@
+<template>
+	<lightning-card>
+	<div class="slds-m-around_medium" if:false=(visible)>
+	<h1 class="slds-text-heading_large">
+
+	<h1><b><u> Trazer Dados da Classe</u></b> </h1>
+	<p>Nome: {Nome}</p>
+	<p>Telefone: {Telefone}</p>
+	<p>CPF: {CPF}</p>
+	<p>Idade: {Idade}</p>
+
+	</div>
+
+	<div>
+		<h1><b><u> Outros Dados</u></b> </h1>
+	<p>Email: {Email}</p>
+	<p>Instagran: <a href= {Instagran} target="_blank"> @arnaldofreitas_team </a> </p>
+	<p>Linkedin: <a href= {Linkedin} target= "_blank"> Arnaldo de Freitas </a> </p>
+
+	</div>
+
+
+	<lightning-button variant="brand" label="TrocarDiv" title="Alterar visible" 
+	onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+	</lightning-card>	
+	</template>
+		
